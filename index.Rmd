@@ -46,7 +46,7 @@ Often this “just works”, but sometimes you have to update the repo settings 
 
 - Make sure you’ve pushed what you have to GitHub
 - Log in to GitHub, find the repo, and navigate to repo settings
-- Set the GitHub pages source to the main branch (see below)
+- Set the GitHub pages source to the main branch
 
 
 
