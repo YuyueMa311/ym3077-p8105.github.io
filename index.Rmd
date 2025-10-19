@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 every website has to have an index page (case-sensitive landing page).
 
@@ -49,7 +48,9 @@ Often this “just works”, but sometimes you have to update the repo settings 
 - Set the GitHub pages source to the main branch
 
 
+## Website Theme
 
+Change the theme on `_site.yml`, remember to delete other `theme:` content on other Rmd files/pages.
 
 
 
