@@ -52,7 +52,9 @@ Often this “just works”, but sometimes you have to update the repo settings 
 
 Change the theme on `_site.yml`, remember to delete other `theme:` content on other Rmd files/pages.
 
-
+## Dashboard on Website
+The website’s _site.yml file conflicts with the dashboard’s YAML header regarding the output format – and the website’s _site.yml “wins”. 
+Use this command `rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")` on the console to knit the dashboard instead of directly knitting.
 
 
 

@@ -327,7 +327,13 @@ div.tocify {
   <a href="about.html">About</a>
 </li>
 <li>
+  <a href="plots.html">Plots</a>
+</li>
+<li>
   <a href="plotly.html">Plotly Plots</a>
+</li>
+<li>
+  <a href="dashboard.html">Dashboard</a>
 </li>
 <li>
   <a href="mailto:&lt;you@youremail.com&gt;">
@@ -408,6 +414,14 @@ that are not <YOUR_GH_NAME>.github.io:</p>
 <h2>Website Theme</h2>
 <p>Change the theme on <code>_site.yml</code>, remember to delete other
 <code>theme:</code> content on other Rmd files/pages.</p>
+</div>
+<div id="dashboard-on-website" class="section level2">
+<h2>Dashboard on Website</h2>
+<p>The website’s _site.yml file conflicts with the dashboard’s YAML
+header regarding the output format – and the website’s _site.yml “wins”.
+Use this command
+<code>rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")</code>
+on the console to knit the dashboard instead of directly knitting.</p>
 </div>
 </div>
 
